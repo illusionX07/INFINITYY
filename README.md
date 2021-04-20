@@ -72,7 +72,7 @@ Get STRING_NAME from here:
 
 ## Note
 
-1. If you want any help you can ask [here](https://t.me/TeLeTiPsOfficialOnTopicChat)
+1. If you want any help you can ask [here](https://t.me/illusion_07)
 
 
 ### Docker
