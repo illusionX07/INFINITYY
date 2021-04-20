@@ -46,7 +46,7 @@ Get STRING_NAME from here:
    - `BOT_TOKEN` :  Make a Bot from [@Botfather](https://t.me/botfather) and fill it's bot token.
    - `SUDO_USERS` :  Fill Userid of yhe users whom you want to be able to control the bot. You can add multiple id by giving a space in b/w each id.
 
-
+   - `OWNER` : CLICK [here](https://t.me/illusion_07)
 
 
 
@@ -56,7 +56,7 @@ Get STRING_NAME from here:
 
 -The commands and there use is explained here-:
 - `/saavn` To search song on jio saavan and play the first result 
-- `/ut` To search the song on Youtube and play the first matching result.
+- `/play` <song name/song link>
 - `/deezer` To search song on deezer and play good quality stream.
 - `/play` Reply this in response to a link or any telegram audio file it will be played 
 - `/skip` to skip current song 
