@@ -78,14 +78,14 @@ async def play(client: Client, message_: Message):
 
     if message_.chat.id in tgcalls.pytgcalls.active_calls:
         position = sira.add(message_.chat.id, file_path)
-        await res.edit_text(f"✯LIGHTYAGAMI✯=#️⃣ Queued at position {position}.")
+        await res.edit_text(f"✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=#️⃣ Queued at position {position}.")
     else:
-        await res.edit_text("✯LIGHTYAGAMI✯=▶️ Playing...")
+        await res.edit_text("✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=▶️ Playing...")
         res.delete
         m = await client.send_photo(
         chat_id=message_.chat.id,
         photo="https://telegra.ph/file/bfd3e51f44415da8875f3.jpg",
-        caption=f"Playing Your song Via  [✯𝗩𝗖𝗣𝗹𝗮𝘆✯](https://t.me/illusion_07).",
+        caption=f"Playing Your song Via  [✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯](https://t.me/illusion_07).",
          ) 
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
 
@@ -121,9 +121,9 @@ async def deezer(client: Client, message_: Message):
     if message_.chat.id in tgcalls.pytgcalls.active_calls:
         await res.edit("adding in queue")
         position = sira.add(message_.chat.id, file_path)
-        await res.edit_text(f"✯LIGHTYAGAMI✯=#️⃣ Queued at position {position}.")
+        await res.edit_text(f"✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=#️⃣ Queued at position {position}.")
     else:
-        await res.edit_text("✯LIGHTYAGAMI✯=▶️ Playing.....")
+        await res.edit_text("✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=▶️ Playing.....")
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
     await res.delete()
     m = await client.send_photo(
@@ -165,9 +165,9 @@ async def jiosaavn(client: Client, message_: Message):
     file_path= await convert(wget.download(slink))
     if message_.chat.id in tgcalls.pytgcalls.active_calls:
         position = sira.add(message_.chat.id, file_path)
-        await res.edit_text(f"✯LIGHTYAGAMI✯=#️⃣ Queued at position {position}.")
+        await res.edit_text(f"✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=#️⃣ Queued at position {position}.")
     else:
-        await res.edit_text("✯LIGHTYAGAMI✯=▶️ Playing.....")
+        await res.edit_text("✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=▶️ Playing.....")
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
     await res.edit("Generating Thumbnail.")
     await generate_cover_square(requested_by, sname, ssingers, sduration, sthumb)
@@ -217,9 +217,9 @@ async def ytp(client: Client, message_: Message):
     file_path = await convert(download(link))
     if message_.chat.id in tgcalls.pytgcalls.active_calls:
         position = sira.add(message_.chat.id, file_path)
-        await res.edit_text(f"✯LIGHTYAGAMI✯=#️⃣ Queued at position {position}.")
+        await res.edit_text(f"✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=#️⃣ Queued at position {position}.")
     else:
-        await res.edit_text("✯LIGHTYAGAMI✯=▶️ Playing....")
+        await res.edit_text("✯𝗟𝗜𝗚𝗛𝗧𝗬𝗔𝗚𝗔𝗠𝗜✯=▶️ Playing....")
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
     await res.edit("Generating Thumbnail.")
     await generate_cover(requested_by, title, views, duration, thumbnail)
