@@ -12,7 +12,7 @@ Telegram Voice-Chat Bot To Play Music With Pytgcalls From Various Sources In You
 
 # How To Host
 The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/sangramghangale/VCPlayerBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/illusionX07/INFINITYY"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ## Run
@@ -20,7 +20,7 @@ The easiest way to deploy this Bot
 Follow this if you are not running on heroku
 
 ```sh
-$ git clone https://github.com/sangramghangale/VCPlayerBot
+$ git clone https://github.com/illusionX07/INFINITYY
 $ cd Telegram_VC_Bot
 $ pip3 install -U pip
 $ pip3 install -U -r requirements.txt
