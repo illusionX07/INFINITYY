@@ -56,7 +56,7 @@ Get STRING_NAME from here:
 
 -The commands and there use is explained here-:
 - `/saavn` To search song on jio saavan and play the first result 
-- `/song` <song name>
+- `/song` < song name >
 - `/deezer` To search song on deezer and play good quality stream.
 - `/play` Reply this in response to a link or any telegram audio file it will be played 
 - `/skip` to skip current song 
